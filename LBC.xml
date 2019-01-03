@@ -5,7 +5,6 @@
 
 		<chapter> 
 			<title>something or the other</title>
-		</chapter>
 		<section xml:id="complexityTheory">
 			<title>Introduction to Complexity Theory</title>
 		</section>
@@ -122,5 +121,8 @@
 		<section xml:id="FHEfromLWE">
 			<title>(Leveled) Fully Homomorphic Encryption from LWE</title>
 		</section>
+
+		</chapter>
+		
 	</article>
 </mathbook>
