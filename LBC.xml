@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mathbook>
+	<article xml:id="Home">
+		<title>Lattice Based Cryptography</title>
+
+
+		<section xml:id="complexityTheory">
+			<title>Introduction to Complexity Theory</title>
+		</section>
+
+
+		<section xml:id="currentCrypto">
+			<title>Current Cryptography</title>
+			<Introduction></Introduction>
+			<subsection>
+				<title>The Idea</title>
+			</subsection>
+
+			<subsection>
+				<title>RSA Encryption</title>
+			</subsection>
+		</section>
+
+
+		<section xml:id="problemsWithCurrentCrypto">
+			<title>The Benifits of Lattice Based Cryptography/The Problems with Current Cryptography</title>
+			<Introduction>
+				
+			</Introduction>
+
+
+			<subsection>
+				<title>Quantum Weakness</title>
+			</subsection>
+
+			<subsection>
+				<title>Fully Homomorphic Encryption</title>
+			</subsection>
+
+			<subsection>
+				<title>Average Worst Case Reduction</title>
+			</subsection>
+
+		</section>
+
+
+		<section xml:id="latticeProblems">
+			<title>Lattice Problems</title>
+
+			<Introduction></Introduction>			
+
+			<subsection>
+				<title> What is a Lattice </title>
+			</subsection>
+
+			<subsection>
+				<title> The many Lattice Problems </title>
+			</subsection>
+
+
+			<subsection>
+				<title> Why We Think They are Hard</title>
+			</subsection>
+		</section>
+
+
+		<section xml:id="LWE">
+			<title>The Learning With Errors Problem</title>
+		
+			<Introduction>
+				
+			</Introduction>
+
+			<subsection>
+				<title>Learning from Parity with Error Problem</title>
+			</subsection>
+
+			<subsection> 
+				<title>The Learning with Errors Problem</title>
+			</subsection>
+
+			<subsection>
+				<title>Proof of Hardness of Search LWE</title>
+			</subsection>
+
+			<subsection>
+				<title> Search Decision Equivalance</title>
+			</subsection>
+
+			<subsection>
+				<title> Average/Worst Case Reduction </title>
+
+			</subsection>
+
+		</section>
+
+		<section xml:id="simpScheme">
+			<title>A Simple LWE Based Encryption Scheme</title>
+		
+			<Introduction></Introduction>
+
+			<subsection> Proof of Security </subsection>
+		</section>
+
+		<section xml:id="FHE">
+			<title>Fully Homomorphic Encryption</title>
+			<Introduction></Introduction>
+
+			<subsection>
+				<title>Definition</title>
+			</subsection>
+
+
+			<subsection>
+				<title>Applications</title>
+			</subsection>
+		</section>
+
+
+		<section xml:id="FHEfromLWE">
+			<title>(Leveled) Fully Homomorphic Encryption from LWE</title>
+		</section>
+	</article>
+</mathbook>
