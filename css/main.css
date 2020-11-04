@@ -5,16 +5,25 @@ body {
 
 
 
+
+nav {
+    white-space: nowrap;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
+    list-style-type: square;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
+
+
+
+
 a {
     text-decoration: none;
     color: #999;

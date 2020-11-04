@@ -3,19 +3,29 @@
 	<head id="top">
 		<title>Aniruddha Nadiga</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
 	</head>
 
-	<div class="nav ul li">
-	  <a class="active" href="#top">Home</a>
-	  <a href="pictures.html">Pictures</a>
-	</div>
 
 
 
 
 	<body>
-		<div class="container">
+		<header>
+			<nav>
+				<ul>
+					<li> <a class="active" href="#top">Home</a> </li>
+					<li> <a class="active" href="#cv">Resume/CV</a> </li>
+					<li> <a class="active" href="#projects">Projects</a> </li>
+					<li> <a class="active" href="#writing">Writing</a> </li>
+					<li> <a class="active" href="#notes">Class Notes</a> </li>
+		 			<li> <a href="pictures.html">Pictures</a> </li>
+		 		</ul>
+		 	</nav>
+	 	</header>
+
+
+		<main>
     		<div class="blurb">
         		<h1>Aniruddha Nadiga</h1>
 					<p>This website is a work in progress.</p>
@@ -23,16 +33,17 @@
 					<p>Email: asnadiga (at) gmail (dot) com</p>
     		</div><!-- /.blurb -->
 
-			<h2> CV </h2>
+			<h2 id="cv"> Shameless Self Promotion Materials </h2>
 				<a href="Documents/Aniruddha_Nadiga_CV.pdf", target="_blank"> CV </a>
 			
-			<h2> Things I have made </h2>
+			<h2 id="projects"> Things I have made </h2>
 				When I have the time I like to make fun things.
 				<ul>
 					<li><a href="https://github.com/asnadiga/Mandelbrot", target="_blank">Mandelbrot Set Viewer</a>: This is an unfinished project to create a tool that can explore the Mandelbrot set and experiment with different color schemes. If you just want the .exe and don't care about the github repo, you can get that <a href="https://github.com/asnadiga/Mandelbrot/raw/master/Mandelbrot.exe"> here</a>. </li>
 					<li><a href="https://github.com/asnadiga/Sudoku", target="_blank">Sudoku Game</a>: An EXTREMELY basic sudoku game interface and solver. </li>
 				</ul>
-			<h2> Things I have written</h2>
+
+			<h2 id="writing"> Things I have written</h2>
 				<ul>
 					<li><a href="Documents/Masters_Thesis.pdf", target="_blank">An Approachable Introduction to Infinity Categories</a>: Masters thesis/project advised by Greg Stevenson at The University of Glasgow. </li>
 					<li><a href="Documents/COMPS.pdf", target="_blank">On the Knotting Probability of Random Equilateral Hexagons</a>: Senior thesis advised by Dr. Kate Hake, and written with Sean Gallagher, and Clara Buck. </li>
@@ -42,7 +53,7 @@
 					<li> <a href="Documents/Post_Quantum_Crypto_and_LWE.pdf", target="_blank"> Independent Study Project </a>: Paper on the need for post-quantum cryptography and some solutions using the Learning With Errors (LWE) problem.</li>
 
 				</ul>
-			<h2> Notes </h2>
+			<h2 id="notes"> Notes </h2>
 				These are my notes for various classes that I am currently taking or have taken in the past. If you notice any typos please tell me (email or in person or anything else works). 
 				<ul>
 					<li><a href="Documents/Operator_Algebra_Notes.pdf", target="_blank">Operator Algebra Notes (Fall 2019 - University of Glasgow)</a></li>
@@ -55,7 +66,7 @@
 				I made this using a tool from <a href="http://publicalbum.org", target="_blank"> publicalbum.org </a>. Sorry for the terrible image quality and repeat images. You can see all of the photos I have uploaded <a href="pictures.html">here</a>.
 
 				<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
-				<div class="pa-carousel-widget" style="width:100%; height:480px; display:none; margin: 60px auto;"
+				<div class="pa-carousel-widget" style="width:100%; height:480px; display:none; margin: 10px auto;"
 				  data-link="https://photos.app.goo.gl/aLvCgFpyJ8Y8WsXF6"
 				  data-title="Scotish Highlands"
 				  data-description="321 new photos added to shared album"
@@ -384,10 +395,10 @@
 				  <object data="https://lh3.googleusercontent.com/TZZ0mDL9I62LbRYRv_8kF_S9O37i_C_wzoTXYAaq2HJSiHrofIMTnXXlTDV1lBdKb0SxxoJWvDxUj0CeOqqCRI2hRvr-xpwgFm48yzfif0hEBewZwLi5tEZYPvLcVIqv8NcRxM6eUw=w1920-h1080"></object>
 				</div>
 
-		</div><!-- /.container -->
+		</main><!-- /.container -->
 		
 		<footer>
-    		<!-- Stuff that I can put in footer -->
+    		I feel like my website should have a footer, so here it is!
 		</footer>
 	</body>
 </html>
