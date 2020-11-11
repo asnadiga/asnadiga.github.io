@@ -45,11 +45,33 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+li > button {
+    float: right;
 }
 
-ul.posts li {
+.emph {
+    background: #FF6C1D !important;
+}
+
+.deleted{
+    display: none;
+}
+
+.listArea{
+    width: 750px
+}
+
+.toDoList {
     list-style: none;
+    font-weight: bold;
+
+}
+
+.toDoList li{
+    border: 0.5px solid #025f70;
+    padding: 2px;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
